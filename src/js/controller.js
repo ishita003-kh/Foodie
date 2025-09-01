@@ -1,4 +1,4 @@
-import "../sass/main.scss";
+import "../sass/main.css";
 import "regenerator-runtime/runtime"; // polyfilling async/await
 import "core-js/stable"; // polyfilling everything else
 import * as model from "./model.js";
@@ -146,4 +146,5 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   addRecipe.addHandlerUpload(controlUploadRecipe);
 };
+
 init();

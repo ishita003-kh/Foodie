@@ -1,0 +1,22 @@
+@mixin media($breakpoint) {
+  @if $breakpoint == bp-1250px {
+    @media only screen and (max-width: 78.125em) {
+      @content;
+    }
+  }
+  @if $breakpoint == bp-980px {
+    @media only screen and (max-width: 61.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == bp-800px {
+    @media only screen and (max-width: 50em) {
+      @content;
+    }
+  }
+  @if $breakpoint == bp-740px {
+    @media only screen and (max-width: 46.25em) {
+      @content;
+    }
+  }
+}

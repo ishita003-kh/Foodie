@@ -1,0 +1,22 @@
+.message,
+.error {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 5rem 4rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  svg {
+    height: 3.2rem;
+    width: 3.2rem;
+    fill: $color-main;
+  }
+
+  p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+}
